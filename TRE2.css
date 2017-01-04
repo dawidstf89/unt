@@ -1,0 +1,93 @@
+#app-menu .list,
+.bar-value {
+    font-size: 17px;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+    background: #000;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(245, 239, 239, .3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(255, 0, 0, .7);
+}
+
+#chat .emote, #chat .mention, #chat .message, #chat .moderation, #chat .skip, #chat .system, #chat .update, #chat .welcome {
+    -webkit-animation: fadein 0.35s;
+    -moz-animation: fadein 0.35s;
+     -ms-animation: fadein 0.35s;
+      -o-animation: fadein 0.35s;
+       animation: fadein 0.35s
+}
+
+#chat .message:nth-child(2n+1),#chat .mention:nth-child(2n+1),#chat .skip:nth-child(2n+1),#chat .moderation:nth-child(2n+1),#chat .emote:nth-child(2n+1),#chat .update:nth-child(2n+1),#chat .welcome:nth-child(2n+1) {
+    -webkit-animation: fadein 0.35s;
+     -moz-animation: fadein 0.35s;
+     -ms-animation: fadein 0.35s;
+     -o-animation: fadein 0.35s;
+     animation: fadein 0.35s;
+}
+#plugcubed {
+    background: none;
+}
+
+#user-rollover .actions .action:hover {
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, .06), rgba(179, 9, 245, .85), rgba(0, 0, 204, .01));
+    background: linear-gradient(to right, rgba(0, 0, 0, .06), rgba(179, 9, 245, .85), rgba(0, 0, 204, .01));
+}
+
+#user-meta .username {
+    font-size: 13px;
+}
+
+#user-meta .value {
+    font-size: 11px;
+}
+
+#volume span {
+    font-size: 16px;
+}
+
+#vote .crowd-response .top .label {
+    font-size: 17px;
+}
+
+#waitlist-button .count {
+    font-size: 16px;
+}
+
+#waitlist .list .user .name span {
+    font-size: 17px;
+}
+
+#woot .bottom,
+#woot.crowd-response.disabled.active .bottom,
+#woot.selected {
+    background: rgba(26, 160, 0, .6);
+}
+
+#meh {
+    display: none;
+}
+
+#chat .is-p3developer .un,
+#user-lists .user > .icon.icon-chat-p3developer + .name,
+#user-rollover .meta.is-p3developer .p3Role {
+    text-shadow: 0px 0px 1px #00a1ff, 0px 0px 5px #1e9bd6, 2px 2px 10px #00c4ff !important;
+}
+
+#room-name,
+#now-playing-media {
+    font-variant: small-caps;
+}
+#chat .is-p3ambassador .un,
+#user-lists .user > .icon.icon-chat-p3ambassador + .name,
+#user-rollover .meta.is-p3ambassador .p3Role {
+    text-shadow: 0px 0px 1px #FFC926, 0px 0px 5px #FFC926, 2px 2px 10px #FFC926 !important;
+}
