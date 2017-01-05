@@ -1,0 +1,30 @@
+@import url("https://rawgit.com/dawidstf89/unt/master/WAM2.css");
+
+.icon-room {
+    width: 75px !important;
+}
+#room-name, #room-host, #now-playing-dj, #now-playing-media {
+    left: 89px !important;
+    color: #fff !important;
+    font-weight: bold;
+    text-shadow: 2px 0px 11px, #dd00ff;
+}
+.app-header, #footer-user .info, #dashboard {
+    background: rgba(0, 0, 0, 0.85) !important;
+}
+#volume .slider {
+    background-color: rgba(0, 0, 0, 0) !important;
+    box-shadow: 0px -19px 0px 6px rgba(0, 0, 0, 0), 0px 18px 0px 6px rgba(0, 0, 0, 0) !important;
+}
+#rcs-menu {
+background: rgba(0,0,0,0.5) !important;
+}
+#footer, .app-right {
+    background: rgba(0, 0, 0, 0.75) !important;
+}
+#playlist-panel, #user-view, #waitlist .list .sortable-placeholder, #room-settings {
+    background: rgba(0, 0, 0, 0.95) !important;
+}
+#now-playing-bar, #history-button, #rs-skip-button, #playlist-menu, #user-menu, #room-settings-menu, .app-right .friends, .badge-box {
+    background: none !important;
+}
